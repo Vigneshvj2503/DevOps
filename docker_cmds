@@ -1,0 +1,4 @@
+docker run <image>
+ex : docker run busybox echo "Hello Baby!"
+docker run <image>:<tag>
+docker build -t kubia .
