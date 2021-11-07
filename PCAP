@@ -1,0 +1,51 @@
+# # # from functools import reduce
+
+# # # domain = [1, 2, 3, 4, 5]
+
+# # # range = map(lambda num: num * num, domain)
+
+# # # print(list(range))
+
+
+# # # evens = filter(lambda num: num %2 ==0, domain)
+# # # print(list(evens))
+
+
+# # # sum = reduce(lambda acc,num: acc + num, domain, 0.0)
+# # # print(sum)
+
+
+# # # words = ["Albert","Abc","a","Dino","Chinar","vj","Fig","Dig"]
+
+# # # print(sorted(words))
+
+# # # print(sorted(words, key = lambda s: s.lower()))
+
+# # # words.sort(key = str.lower, reverse= True)
+# # # print(words)
+
+
+# # def greeter(prefix):
+# #     def greet(name):
+# #         print(f"{prefix} {name}")
+# #     return greet
+# # hello = greeter("Hello")
+# # goodbye = greeter("Gn")
+
+# # hello("Vj")
+# # goodbye("Cj")
+
+
+
+# Age = int(input())
+# count = 0
+# count+1 if Age >= 18 else count
+# print(count)
+name = input("Enter Your Name: ")
+
+print(
+    "Your Name is Shorter"
+) if len(name)>= 6 else print (
+    "Your Name is Longer"
+)
+    
